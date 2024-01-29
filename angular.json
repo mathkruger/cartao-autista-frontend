@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "cartao-autista-frontend:build:production"
+              "buildTarget": "cartao-autista-frontend:build:production"
             },
             "development": {
-              "browserTarget": "cartao-autista-frontend:build:development"
+              "buildTarget": "cartao-autista-frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "cartao-autista-frontend:build"
+            "buildTarget": "cartao-autista-frontend:build"
           }
         },
         "test": {
